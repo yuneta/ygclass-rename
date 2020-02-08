@@ -47,7 +47,7 @@ static char doc[] =
   "ygclass-rename -- a Yuneta utility to rename a gclass";
 
 /* A description of the arguments we accept. */
-static char args_doc[] = "OLD-GCLASS-NAME NEW-GCLASS-NAME";
+static char args_doc[] = "ygclass-rename OLD_GCLASS NEW_GCLASS";
 
 /* The options we understand. */
 static struct argp_option options[] = {
