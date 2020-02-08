@@ -6,7 +6,9 @@ Name: ygclass-rename
 Description
 ===========
 
-Rename a gclass
+Rename a gclass::
+
+    ygclass-rename <old-gclass1> <new-gclass2>
 
 For example:
 
