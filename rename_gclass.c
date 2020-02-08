@@ -103,11 +103,11 @@ int rename_gclass(char *old_gclass_name, char *new_gclass_name)
     snprintf(old_puntoh, sizeof(old_puntoh), "c_%s.h", old_gclass_name);
 
     if(!is_regular_file(old_puntoc)) {
-        printf("File NOT exist: %s\n", old_puntoc);
+        printf("File NOT exist: %s. Remember don't include the 'c_' prefix, neither '.c' suffix.\n", old_puntoc);
         return -1;
     }
     if(!is_regular_file(old_puntoh)) {
-        printf("File NOT exist: %s\n", old_puntoh);
+        printf("File NOT exist: %s. Remember don't include the 'c_' prefix, neither '.c' suffix.\n", old_puntoh);
         return -1;
     }
 
@@ -143,6 +143,8 @@ int rename_gclass(char *old_gclass_name, char *new_gclass_name)
     render_file(new_puntoc, old_puntoc, jn_values);
 
     json_decref(jn_values);
+
+    printf("Remember to change file headers (copyright, year, description)\n");
 
     return 0;
 }
