@@ -6,8 +6,6 @@ Name: ygclass-rename
 Description
 ===========
 
-sudo apt-get install libpcre3-dev
-
 Rename a gclass
 
 License
