@@ -16,7 +16,7 @@
  *      Constants
  ***************************************************************************/
 #define NAME            "ygclass-rename"
-#define APP_VERSION     "4.7.3"
+#define APP_VERSION     "4.7.4"
 #define APP_DATETIME    __DATE__ " " __TIME__
 #define APP_SUPPORT     "<niyamaka at yuneta.io>"
 
