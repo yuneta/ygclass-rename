@@ -21,9 +21,7 @@ And you want reuse the code in a new gclass *Prot_http2* ::
     yclass-rename prot_http prot_http2
 
 License
-=======
+-------
 
-Copyright (c) 2020 Niyamaka.
-
-Released under terms
-of `The MIT License <http://www.opensource.org/licenses/mit-license>`_
+Licensed under the  `The MIT License <http://www.opensource.org/licenses/mit-license>`_.
+See LICENSE.txt in the source distribution for details.
