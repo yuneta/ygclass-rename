@@ -1,6 +1,6 @@
 /****************************************************************************
- *          MAKE_SKELETON.C
- *          Make a skeleton
+ *          RENAME_GCLASS.C
+ *          Rename gclass
  *
  *          Copyright (c) 2015 Niyamaka.
  *          All Rights Reserved.
