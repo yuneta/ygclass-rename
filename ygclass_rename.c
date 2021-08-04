@@ -44,7 +44,8 @@ const char *argp_program_bug_address = APP_SUPPORT;
 
 /* Program documentation. */
 static char doc[] =
-  "ygclass-rename -- a Yuneta utility to rename a gclass";
+  "ygclass-rename -- a Yuneta utility to rename a gclass\n"
+  "Ex: ygclass-rename postgres authenticate # without prefix and extension";
 
 /* A description of the arguments we accept. */
 static char args_doc[] = "ygclass-rename OLD_GCLASS NEW_GCLASS";
