@@ -43,7 +43,7 @@ SET (YUNO_SRCS
     ygclass_rename.c
     rename_gclass.c
     render_file.c
-    /yuneta/development/yuneta/^gobj-ecosistema/ghelpers/src/00_replace_string.c
+    00_replace_string.c
 )
 SET (YUNO_HDRS
 )
