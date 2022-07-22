@@ -9,7 +9,6 @@
 #include <string.h>
 #include <stdlib.h>
 #include <argp.h>
-#include <regex.h>
 #include <yuneta_version.h>
 #include "rename_gclass.h"
 

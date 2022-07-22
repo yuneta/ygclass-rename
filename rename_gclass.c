@@ -5,15 +5,9 @@
  *          Copyright (c) 2015 Niyamaka.
  *          All Rights Reserved.
  ****************************************************************************/
-#include <sys/types.h>
 #include <dirent.h>
-#include <time.h>
 #include <sys/stat.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <string.h>
 #include <argp.h>
-#include <regex.h>
 #include <jansson.h>
 #include <12_walkdir.h>
 #include "render_file.h"
@@ -148,4 +142,3 @@ int rename_gclass(char *old_gclass_name, char *new_gclass_name)
 
     return 0;
 }
-
